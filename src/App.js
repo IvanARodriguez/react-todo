@@ -1,6 +1,5 @@
 import './App.css';
-import Task from './components/Task';
-import TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList';
 
 function App() {
 
@@ -8,8 +7,7 @@ function App() {
     <div className="App">
       <div className="task_list_view">
         <h1>MY TASKS</h1>
-        <TaskForm />
-        <Task text="Take out the dog" />
+        <TaskList />
       </div>
     </div>
   );

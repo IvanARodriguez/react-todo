@@ -1,4 +1,5 @@
 .task_container{
+    width: 100%;
     min-height: 65px;
     animation:  colorSlide 1s ease-in-out;
     animation-fill-mode: forwards; 
@@ -11,6 +12,17 @@
     cursor: pointer;
     transition: background-color .3s ease-in-out;
     background-color: #1d1d25;
+}
+
+/* colors */
+.task_container:nth-child(3n + 1){
+    background-color: #1b1b32;
+}
+.task_container:nth-child(3n + 2){
+    background-color: #2a2a40;
+}
+.task_container:nth-child(3n + 3){
+    background-color: #3b3b4f;
 }
 
 .task_container:hover{
@@ -46,8 +58,8 @@
 }
 
 .task_icon:hover{
-    color: red;
-    border-color: red;
+    color: rgb(255, 0, 140);
+    border-color: rgb(255, 0, 140);
 }
 
 

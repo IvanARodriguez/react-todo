@@ -1,0 +1,35 @@
+
+.task_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.54rem;
+    padding: 8px 15px 8px 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+.task_input{
+    padding: 1rem 2rem;
+    font-size: 1.3em;
+    background-color: transparent;
+    border: none;
+    border-right: none;
+    color: white;
+    width: 100%;
+}
+
+.form_button{
+    background-color: transparent;
+    margin-left: 1rem;
+    border: none;
+    font-size: 2rem;
+    padding-top: 5px;
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+.form_button:hover{
+    color: rgb(0, 105, 197);
+}

@@ -23,6 +23,15 @@ input:focus{
     outline: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 35px #282c34 inset !important;
+    -webkit-text-fill-color:white;
+}
+
+
 .form_button{
     background-color: transparent;
     margin-left: 1rem;
